@@ -71,6 +71,7 @@ import TodoList from "@ckeditor/ckeditor5-list/src/todolist";
 import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline.js";
 import WordCount from "@ckeditor/ckeditor5-word-count/src/wordcount.js";
 import { Mathlive, MathlivePanelview } from "@yayure/ckeditor5-mathlive";
+import FullScreen from "ckeditor5-full-screen/src/fullscreen";
 
 import "mathlive";
 import "mathlive/static.css";
@@ -147,6 +148,7 @@ Editor.builtinPlugins = [
   Underline,
   WordCount,
   Mathlive,
+  FullScreen,
 ];
 
 // Editor configuration.
@@ -193,6 +195,7 @@ Editor.defaultConfig = {
       "undo",
       "redo",
       "mathlive",
+      "fullscreen",
     ],
   },
   fontFamily: {

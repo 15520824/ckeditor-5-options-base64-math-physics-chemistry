@@ -1,4 +1,2 @@
 
-declare interface EditorType  {
-	renderMathPanel(element: any): null;
-}
+declare interface EditorType  {}

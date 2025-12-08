@@ -58,6 +58,7 @@
   },
   "dependencies": {
     "@yayure/ckeditor5-mathlive": "^41.4.0",
+    "ckeditor5-full-screen": "^0.0.2",
     "mathlive": "^0.108.2"
   }
 }

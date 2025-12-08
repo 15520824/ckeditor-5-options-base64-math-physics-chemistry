@@ -1000,7 +1000,14 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
-ckeditor5@38.1.1:
+ckeditor5-full-screen@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmmirror.com/ckeditor5-full-screen/-/ckeditor5-full-screen-0.0.2.tgz#088218ac0a86f2b086945fe386e8fbf617ea1bb9"
+  integrity sha512-8IguYovtFUPIhb93uiv7sT1OJ2UKH8vwparNPyrZmi4IgRSi1/mrcpwqEXE1Q5dTaSudtN1qBbgdQEfD0rjB9A==
+  dependencies:
+    ckeditor5 "^38.1.1"
+
+ckeditor5@38.1.1, ckeditor5@^38.1.1:
   version "38.1.1"
   resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-38.1.1.tgz#78b917df9c1345e05c1a81139d9d1f77f9f0a89e"
   integrity sha512-KE6H2WGLlhlI4F//AZn+fv52DhbwAeVv+ZeSIsa5gC81/3ZCzuYc3+IMur/70IBE9Gze8gKwFP9elh/TIaQ5Hw==
